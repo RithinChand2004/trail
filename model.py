@@ -3,9 +3,9 @@ import numpy as np
 import keras
 import tensorflow as tf
 from keras.preprocessing import image
-import cv2
+#import cv2
 from numpy import asarray
-from PIL import Image
+#from PIL import Image
 class Disease:
     def classify(self, testImageFile):
         from keras.models import model_from_json
